@@ -9,8 +9,6 @@ import img2 from '../assets/AP2.jpg';
 import img3 from '../assets/AP3.jpg';
 import img4 from '../assets/AP4.jpg';
 
-// import icon1 from '../assets/icon-1.png';
-
 import { BsMicrosoftTeams } from "react-icons/bs";
 import { LuChartGantt } from "react-icons/lu";
 import { PiFilesFill } from "react-icons/pi";
