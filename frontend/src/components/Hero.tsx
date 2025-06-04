@@ -38,48 +38,17 @@ const Hero = () => {
                 <div className="absolute -inset-8  rounded-3xl blur-2xl" />
 <div className="flex flex-col gap-6">
 
-  <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 ">
-
-    <div className="lg:col-span-1  md:block">
-      <div className="relative h-full bg-white/10 rounded md:rounded-xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
-        <Image
-          src={img2}
-          alt="image"
-          className="w-full h-full object-cover rounded-xl shadow-lg"
-          width={484}
-          height={588}
-          priority
-        />
-      </div>
-    </div>
+  <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-1 gap-2 md:gap-6 ">
 
 
-    <div className="lg:col-span-2 grid grid-rows-2 gap-2">
 
-      <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
-        <Image
-          src={img1}
-          alt="image"
-          className="w-full h-full object-cover rounded-lg shadow-lg"
-          width={484}
-          height={294}
-        />
-      </div>
+    <div className="">
 
 
-      <div className="grid grid-cols-2 gap-1 md:gap-4">
+      <div className="">
         <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
           <Image
             src={img3}
-            alt="image"
-            className="w-full h-full object-cover rounded-lg shadow-lg"
-            width={242}
-            height={294}
-          />
-        </div>
-        <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
-          <Image
-            src={img4}
             alt="image"
             className="w-full h-full object-cover rounded-lg shadow-lg"
             width={242}
