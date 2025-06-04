@@ -97,15 +97,16 @@ const Hero = () => {
             <div className="w-full text-center lg:text-left order-2 lg:order-1 mt-10 md:mt-0 ">
               <div className=" md:max-w-2xl mx-auto lg:mx-0 space-y-6 md:space-y-8  ">
                 <div className="space-y-4">
-                  <h1 className='md:hidden  text-xl text-[#2b2d42] font-bold md:text-center'>Manage Projects, Teams, and Deadlines – All in One Place</h1>
+                  <h1 className='md:hidden  text-xl text-[#2b2d42] font-bold md:text-center'>Simplify Project Management for Your Entire Organization</h1>
                   <h1 className=" hidden md:block text-4xl md:text-5xl lg:text-4xl xl:text-4xl 2xl:text-5xl font-black text-[#2b2d42] leading-tight">
-                    Manage Projects, Teams, and Deadlines – All in One Place
+                    Simplify Project Management for Your Entire Organization
                   </h1>
                 </div>
 
                 <p className=" text-sm md:text-xl text-[#31363F] leading-relaxed font-medium max-w-2xl mx-auto lg:mx-0">
-                  ACE Projects is your all-in-one project management tool to plan, track, and deliver projects with clarity. Keep your team aligned, productive, and on track—no matter the project size.
-                </p>
+               Plan smarter, collaborate seamlessly, and deliver projects faster with our all-in-one project management software. Designed for teams of all sizes, our platform helps you streamline workflows, track project progress in real time, and keep your entire organization aligned—from planning to execution.
+            </p>
+            
 
                 <div className="grid grid-cols-3 md:grid-cols-3 gap-2 md:gap-6  max-w-xl mx-auto lg:mx-0">
                   <div className=" flex text-center lg:text-left p-2 md:p-4 items-center bg-white rounded-xl border border-dashed  ">
