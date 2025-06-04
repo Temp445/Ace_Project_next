@@ -196,7 +196,7 @@ const Form: React.FC = () => {
     <div id="contact" className="mt-5 md:px-2">
       <div className="flex flex-col md:flex-row p-4 py-10 rounded-lg md:py-10 max-w-6xl mx-auto sm:mt-20 mb-20 justify-center">
   
-        <div className="md:w-7/12 border p-5 md:p-10 rounded md:rounded-none md:border-sky-800">
+        <div className="md:w-7/12 border p-5 md:p-10 rounded md:rounded-none md:border-[#2b2d42]">
           <h2 className="text-xl md:text-3xl font-semibold text-[#2b2d42] mb-6">
             Get in touch and <strong className="text-[#077A7D]">schedule your demo now!</strong>
           </h2>
@@ -269,7 +269,7 @@ const Form: React.FC = () => {
         </div>
 
      
-        <div className="mt-20 md:mt-0 md:w-5/12 bg-[#077A7D] border border-e-sky-800 border-y-sky-800 border-l-sky-800 md:border-l-0 text-white rounded md:rounded-r-sm md:rounded-l-none">
+        <div className="mt-20 md:mt-0 md:w-5/12 bg-[#077A7D] border border-e-[#2b2d42] border-y-[#2b2d42] border-l-[#2b2d42] md:border-l-0 text-white rounded md:rounded-r-sm md:rounded-l-none">
           <div className="h-48 relative overflow-hidden">
             <div className="absolute inset-0 bg-blue-50 bg-opacity-20 flex flex-col items-center justify-center">
               <Image fill src={icon} alt="bg" className="object-cover object-center opacity-50" />
