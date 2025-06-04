@@ -24,7 +24,7 @@ const Advantages = () => {
                 <div className="w-10 h-10 md:w-14 md:h-14 rounded group-hover:rotate-45 border-y-2 group-hover:border-[#04BFBF] group-hover:rounded-full shadow-lg flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
                   <BarChart3 className="w-5 h-5 md:w-8 md:h-8 text-black group-hover:text-[#04BFBF] group-hover:-rotate-45" />
                 </div>
-                <h2 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-gray-900">Projects</h2>
+                <h2 className="text-2xl md:text-3xl 2xl:text-3xl font-bold text-gray-900">Projects</h2>
               </div>
               <p className="text-gray-700 text-base md:text-lg leading-relaxed">
                 The Project Report offers a clear summary of all ongoing and completed projects, highlighting <strong>completion rates, resource allocation, and real-time status updates</strong>. It helps teams track progress, spot bottlenecks, and make informed decisions efficiently.

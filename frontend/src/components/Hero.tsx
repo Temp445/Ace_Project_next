@@ -38,10 +38,10 @@ const Hero = () => {
                 <div className="absolute -inset-8  rounded-3xl blur-2xl" />
 <div className="flex flex-col gap-6">
 
-  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+  <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 ">
 
-    <div className="lg:col-span-1 hidden lg:block">
-      <div className="relative h-full bg-white/10 rounded-xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
+    <div className="lg:col-span-1  md:block">
+      <div className="relative h-full bg-white/10 rounded md:rounded-xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
         <Image
           src={img2}
           alt="image"
@@ -56,7 +56,7 @@ const Hero = () => {
 
     <div className="lg:col-span-2 grid grid-rows-2 gap-2">
 
-      <div className="relative bg-white/10 rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
+      <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
         <Image
           src={img1}
           alt="image"
@@ -67,8 +67,8 @@ const Hero = () => {
       </div>
 
 
-      <div className="grid grid-cols-2 gap-4">
-        <div className="relative bg-white/10 rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
+      <div className="grid grid-cols-2 gap-1 md:gap-4">
+        <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
           <Image
             src={img3}
             alt="image"
@@ -77,7 +77,7 @@ const Hero = () => {
             height={294}
           />
         </div>
-        <div className="relative bg-white/10 rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
+        <div className="relative bg-white/10 rounded md:rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
           <Image
             src={img4}
             alt="image"
@@ -89,33 +89,12 @@ const Hero = () => {
       </div>
     </div>
   </div>
-{/* 
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div className="relative bg-white/10 rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
-      <Image
-        src={img1}
-        alt="image"
-        className="w-full h-full object-contain rounded-lg shadow-lg"
-        width={484}
-        height={294}
-      />
-    </div>
-    <div className="relative bg-white/10 rounded-2xl border border-white/20 p-2 md:p-4 shadow-2xl backdrop-blur-sm">
-      <Image
-        src={img1}
-        alt="image"
-        className="w-full h-full object-contain rounded-lg shadow-lg"
-        width={484}
-        height={294}
-      />
-    </div>
-  </div> */}
 </div>
 
               </div>
             </div>
 
-            <div className="w-full text-center lg:text-left order-2 lg:order-1 mt-10 ">
+            <div className="w-full text-center lg:text-left order-2 lg:order-1 mt-10 md:mt-0 ">
               <div className=" md:max-w-2xl mx-auto lg:mx-0 space-y-6 md:space-y-8  ">
                 <div className="space-y-4">
                   <h1 className='md:hidden  text-xl text-[#2b2d42] font-bold md:text-center'>Manage Projects, Teams, and Deadlines – All in One Place</h1>
@@ -128,17 +107,17 @@ const Hero = () => {
                   ACE Projects is your all-in-one project management tool to plan, track, and deliver projects with clarity. Keep your team aligned, productive, and on track—no matter the project size.
                 </p>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-6  max-w-xl mx-auto lg:mx-0">
+                <div className="grid grid-cols-3 md:grid-cols-3 gap-2 md:gap-6  max-w-xl mx-auto lg:mx-0">
                   <div className=" flex text-center lg:text-left p-2 md:p-4 items-center bg-white rounded-xl border border-dashed  ">
-                    <div><PiFilesFill className='text-2xl' />  </div>
+                    <div><PiFilesFill className='hidden xl:block text-2xl' />  </div>
                     <div className="text-sm text-[#2b2d42] text-center"> Project & Task Management</div>
                   </div>
                   <div className="flex text-center lg:text-left p-2 md:p-4 items-center bg-white rounded-xl border border-dashed">
-                          <div><BsMicrosoftTeams className='text-2xl' />  </div>
+                          <div><BsMicrosoftTeams className='hidden xl:block text-2xl' />  </div>
                     <div className="text-sm text-[#2b2d42] text-center"> Team Member Management</div>
                   </div>
-                  <div className="hidden  md:flex items-center text-center lg:text-left p-4 bg-white rounded-xl border  border-dashed">
-                <div><LuChartGantt  className='text-2xl'/> </div>
+                  <div className=" items-center text-center lg:text-left p-4 bg-white rounded-xl border  border-dashed">
+                <div><LuChartGantt  className='hidden xl:block text-2xl'/> </div>
                     <div className="text-sm text-[#2b2d42] text-center">Gantt Chart Visualization</div>
                   </div>
                 </div>
