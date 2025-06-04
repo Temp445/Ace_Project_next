@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const BookADemo = () => {
     
@@ -11,9 +12,9 @@ const BookADemo = () => {
             <p className="text-gray-200 mb-6 ">
               Get comprehensive insights into your projects, teams, tasks, and schedules all in one place.
             </p>
-            <button className="border  text-white px-8 py-3 rounded font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+            <Link href='#contact' className="border text-white px-8 py-3 rounded font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               Get Started Today
-            </button>
+            </Link>
           </div>
         </div>
   );

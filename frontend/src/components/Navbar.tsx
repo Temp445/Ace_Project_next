@@ -135,7 +135,7 @@ const Navbar: FC = () => {
 
         <div className="hidden md:flex items-center space-x-4">
           <Link
-            href="https://webapp.acecms.in/"
+            href="#"
             className="border  hover:underline hover:text-blue-700 hover:bg-white text-[#2b2d42] px-3 py-1 md:px-2 lg:px-6 xl:py-2 rounded-md font-medium  transition"
           >
             Sign In
@@ -154,7 +154,7 @@ const Navbar: FC = () => {
         </button>
 
         <Link
-          href="https://webapp.acecms.in/"
+          href="#"
           className="flex flex-col items-center justify-center text-white w-full"
         >
           <span className="w-full h-12  bg-gradient-to-r from-red-500 to-red-400 flex items-center justify-center">
