@@ -9,8 +9,8 @@ const Advantages = () => {
           <h1 className="inline-block border text-black px-8 py-4 rounded-full text-xl md:text-2xl font-extrabold shadow-xl mb-8">
             Project Reporting <span className="text-black">Features</span>
           </h1>
-          <p className="text-gray-700 text-lg md:text-lg font-medium max-w-7xl mx-auto leading-relaxed">
-            Project reporting is the process of collecting, analyzing, and sharing key information about a project's status, progress, performance, and outcomes with stakeholders. It helps ensure transparency, informed decision-making, and accountability throughout the project lifecycle.
+          <p className="text-gray-700  md:text-lg font-medium max-w-7xl mx-auto leading-relaxed">
+            Project reporting is the process of collecting, analyzing, and sharing key information about a project&rsquo;s status, progress, performance, and outcomes with stakeholders. It helps ensure transparency, informed decision-making, and accountability throughout the project lifecycle.
           </p>
         </div>
 

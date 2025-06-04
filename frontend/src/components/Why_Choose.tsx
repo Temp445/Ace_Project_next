@@ -51,11 +51,11 @@ const Why_Choose = () => {
             </div>
             
             <h2 className="text-xl  xl:text-2xl  2xl:text-4xl font-bold text-[#2b2d42] leading-tight">
-             Your team’s success begins with ACE Projects
+             Your team&rsquo;s success begins with ACE Projects
             </h2>
             
             <p className="text-sm lg:text-lg text-[#31363F]">
-              ACE Projects is more than just a project management tool—it's a complete solution to help your team stay organized, productive, and on schedule.
+              ACE Projects is more than just a project management tool—it&rsquo;s a complete solution to help your team stay organized, productive, and on schedule.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
