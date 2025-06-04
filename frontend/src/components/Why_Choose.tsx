@@ -45,7 +45,7 @@ const Why_Choose = () => {
           </div>
           
         
-          <div className="w-full xl:w-7/12 space-y-6  border border-gray-200  sm:border-0 pt-5 pb-10 px-2 lg:px-12 xl:px-2 rounded">
+          <div className="w-full xl:w-7/12 space-y-6  pt-5 pb-10 px-2 lg:px-12 xl:px-2 rounded">
             <div className="inline-block  text-[#2b2d42] border px-4 py-1 rounded-full font-medium">
               Why ACE Projects ?
             </div>

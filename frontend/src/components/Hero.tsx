@@ -109,15 +109,15 @@ const Hero = () => {
 
                 <div className="grid grid-cols-3 md:grid-cols-3 gap-2 md:gap-6  max-w-xl mx-auto lg:mx-0">
                   <div className=" flex text-center lg:text-left p-2 md:p-4 items-center bg-white rounded-xl border border-dashed  ">
-                    <div><PiFilesFill className='hidden xl:block text-2xl' />  </div>
+                    <div><PiFilesFill className='hidden md:flex lg:hidden  xl:block text-2xl' />  </div>
                     <div className="text-sm text-[#2b2d42] text-center"> Project & Task Management</div>
                   </div>
                   <div className="flex text-center lg:text-left p-2 md:p-4 items-center bg-white rounded-xl border border-dashed">
-                          <div><BsMicrosoftTeams className='hidden xl:block text-2xl' />  </div>
+                          <div><BsMicrosoftTeams className='hidden md:flex lg:hidden  xl:block text-2xl' />  </div>
                     <div className="text-sm text-[#2b2d42] text-center"> Team Member Management</div>
                   </div>
-                  <div className=" items-center text-center lg:text-left p-4 bg-white rounded-xl border  border-dashed">
-                <div><LuChartGantt  className='hidden xl:block text-2xl'/> </div>
+                  <div className="flex items-center text-center lg:text-left p-2 md:p-4 bg-white rounded-xl border  border-dashed">
+                <div><LuChartGantt  className='hidden md:flex lg:hidden xl:flex text-2xl'/> </div>
                     <div className="text-sm text-[#2b2d42] text-center">Gantt Chart Visualization</div>
                   </div>
                 </div>

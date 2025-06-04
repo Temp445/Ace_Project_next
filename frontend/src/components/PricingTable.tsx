@@ -214,7 +214,7 @@ const PricingTable: React.FC = () => {
               </a>
 
               <button
-                className="w-full md:hidden bg-sky-600 text-white py-2 rounded-sm font-semibold flex items-center justify-center mt-8 mb-4"
+                className="w-full md:hidden bg-[#2b2d42] text-white py-2 rounded-sm font-semibold flex items-center justify-center mt-8 mb-4"
                 onClick={() => togglePlanFeatures(plan.name)}
               >
                 Features List <LuSquareArrowOutUpRight className="ml-3 text-lg" />

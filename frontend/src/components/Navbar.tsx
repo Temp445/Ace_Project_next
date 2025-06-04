@@ -76,7 +76,7 @@ const Navbar: FC = () => {
 
           <Link
             href="#client"
-            className="md:hidden lg:block  flex items-center text-[#2b2d42]  border border-white   text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out hover:border hover:border-[#2b2d42] hover:scale-105"
+            className="md:hidden lg:flex items-center text-[#2b2d42]  border border-white   text-base font-semibold relative px-4 py-2 rounded-full transition-all duration-300 ease-in-out hover:border hover:border-[#2b2d42] hover:scale-105"
           >
             <Users className="w-4 h-4 mr-2" />
             Clients
